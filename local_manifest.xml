@@ -2,10 +2,10 @@
 <manifest>
 
 <!-- REMOVALS -->
-<remove-project name="SlimRoms/hardware_ril" />
 <remove-project name="SlimRoms/hardware_ti_omap4xxx" />
 <remove-project name="SlimRoms/hardware_ti_wpan" />
 <remove-project name="SlimRoms/hardware_ti_wlan" />
+<remove-project name="platform/packages/apps/Launcher3" />
 <remove-project name="SlimRoms/android_prebuilt" />
 
 <!-- DEVICE -->
@@ -19,10 +19,10 @@
 <project name="CyanogenMod/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="cm-11.0" />
 
 <!-- REPLACEMENTS -->
-<project name="CyanogenMod/android_hardware_ril" path="hardware/ril" remote="github" revision="cm-10.2" />
 <project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_prebuilt" path="prebuilt" remote="github" revision="cm-11.0" />
 
 <!-- EXTRAS -->
